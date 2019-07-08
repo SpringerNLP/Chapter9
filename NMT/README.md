@@ -13,15 +13,15 @@ The docker images for this case study are located on dockerhub. Running the comm
 
 Run the Docker image for CPU only computation:
 ```
-docker run -p 8888:8888 jimmywhitaker/chapter_9:latest
+docker run -p 8888:8888 --rm springernlp/chapter_9nmt:latest
 ```
 
 Run the Docker image with GPU access: 
 ```
-docker run --runtime=nvidia -p 8888:8888 jimmywhitaker/chapter_9:latest
+docker run --runtime=nvidia -p 8888:8888 --rm springernlp/chapter_9nmt:latest
 ```
 
 ## Building the Docker image
 ```
-docker build -t jimmywhitaker/chapter_9:latest .
+docker build -t chapter_9nmt:latest .
 ```

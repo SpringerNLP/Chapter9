@@ -6,5 +6,10 @@ The docker images for this case study are located on dockerhub. Running the comm
 
 Run the Docker image on a GPU-enabled host: 
 ```
-docker run --runtime=nvidia -p 8888:8888 -p 6006:6006 springernlp/chapter_9qa:latest
+docker run --runtime=nvidia -p 8888:8888 --rm springernlp/chapter_9qa:latest
+```
+
+## Building the Docker image
+```
+docker build -t chapter_qa:latest .
 ```
