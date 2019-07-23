@@ -4,3 +4,7 @@ In this chapter, we include two case studies. The first is the use of attention-
 ## [Neural Machine Translation](NMT)
 
 ## [Memory Augmented Networks](QA)
+
+
+## Book Reference
+More information can be found at: [Deep Learning for NLP and Speech Recognition](https://www.amazon.com/Deep-Learning-NLP-Speech-Recognition/dp/3030145956) by [Springer](https://www.springer.com/us/book/9783030145958) 
